@@ -1,23 +1,22 @@
-
 # Python
 __pycache__/
 *.py[cod]
 .pytest_cache/
-.venv/
-venv/
+.ruff_cache/
 
-# Environment variables and secrets
+# Virtual environment
+.venv/
+
+# Secrets
 .env
 
 # Local data
 data/raw/*
 data/processed/*
-
-# Keep folder structure
 !data/raw/.gitkeep
 !data/processed/.gitkeep
 
-# Notebook outputs
+# Notebooks
 .ipynb_checkpoints/
 
 # IDE and OS
